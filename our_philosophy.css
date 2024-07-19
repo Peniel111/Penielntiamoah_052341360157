@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #101010bd;
+    color: hsla(0, 0%, 12%, 0.729);
+}
+
+header {
+    background-color: #edc01e;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: #201f1f;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+.philosophy-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(245, 245, 21, 0.906);
+    margin-bottom: 2em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.philosophy-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #dea710;
+}
+
+.philosophy-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #161615dd;
+}
+
+.philosophy-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #f4c427;
+    color: #dcbd21;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    color: #4169e1;
+}
+
+main h3 {
+    color: #4682b4;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Container Styles */
+.container, .container_1, .container_2 {
+    border: 1px solid #add8e6;
+    padding: 15px;
+    margin: 10px;
+    background-color: #e6f7ff;
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.container:hover, .container_1:hover, .container_2:hover {
+    transform: scale(1.05);
+}
+
+.container img, .container_1 img, .container_2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Layout Styles */
+.container_1, .container_2 {
+    flex: 1 1 calc(33.333% - 40px);
+}
+
+.container_2 {
+    flex: 1 1 calc(100% - 40px);
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .container, .container_1, .container_2 {
+        flex: 1 1 calc(50% - 40px);
+    }
+
+    .container_2 {
+        flex: 1 1 calc(100% - 40px);
+    }
+}
+
+@media (max-width: 800px) {
+    .container, .container_1, .container_2 {
+        flex: 1 1 calc(100% - 40px);
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
